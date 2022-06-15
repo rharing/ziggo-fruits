@@ -10,7 +10,7 @@ import java.time.LocalDate
 class FruitReader {
     String rootDir = ""
     FruitReader() {
-        locateRootDir();
+        locateRootDir()
     }
 
     String read(String fileName, boolean writeFile = false) {
@@ -62,7 +62,7 @@ class FruitReader {
 
     Map translateFruits(LinkedHashMap<Fruit, Integer> fruits, Map<String, String> types, Map<String, String> colors) {
         Map result = [:]
-        def fruitColors = new JsonSlurper().parse(new File("/home/ronald/projects/tryout/ziggo/fruits/src/main/resources/FruitColorMap.json"))
+        def fruitColors = new JsonSlurper().parse(new File(rootDir+"/resources/main/FruitColorMap.json"))
         fruits.each {
             {
                 result.put(translateFruit(it.key, types, colors, fruitColors ), it.value)

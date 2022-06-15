@@ -10,15 +10,15 @@ repositories {
 }
 
 dependencies {
-    implementation fileTree('/home/ronald/java/groovy-3.0.11/lib') {
-        include '*.jar'
-        include '*/*.jar'
-    }
+//    implementation fileTree('/home/ronald/java/groovy-3.0.11/lib') {
+//        include '*.jar'
+//        include '*/*.jar'
+//    }
     // mandatory dependencies for using Spock
-    implementation 'org.codehaus.groovy:groovy:3.0.10'
+    implementation 'org.codehaus.groovy:groovy-all:3.0.11'
     testImplementation platform("org.spockframework:spock-bom:2.1-groovy-3.0")
     testImplementation "org.spockframework:spock-core"
-    testImplementation "org.spockframework:spock-junit4"
+//    testImplementation "org.spockframework:spock-junit4"
     // you can remove this if your code does not rely on old JUnit 4 rules
 
     // optional dependencies for using Spock
