@@ -1,0 +1,9 @@
+{
+  "fruit": {
+    "Banaan": {
+      "groen": 5,
+      "overrijp": 7,
+      "rijp": 8
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "fruit": [
+    {
+      "Banaan": [
+        {
+          "color": "Bruin",
+          "productState": "overrijp"
+        },
+        {
+          "color": "Geel",
+          "productState": "rijp"
+        },
+        {
+          "color": "Groen",
+          "productState": "groen"
+        }
+      ]
+    },
+    {
+      "Aardbei": [
+        {
+          "color": "Bruin",
+          "productState": "rot"
+        },
+        {
+          "color": "Rood",
+          "productState": "rijp"
+        }
+      ]
+    },
+    {
+      "Appel": [
+        {
+          "color": "Bruin",
+          "productState": "rot"
+        },
+        {
+          "color": "Geel",
+          "productState": "rijp"
+        },
+        {
+          "color": "Groen",
+          "productState": "rijp"
+        },
+        {
+          "color": "Rood",
+          "productState": "rijp"
+        }
+      ]
+    }
+  ]
+}
